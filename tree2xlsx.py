@@ -23,7 +23,7 @@ updated 2023-01-21
 
 def gettree():
 	# Recursively retrieve files and folders throughout specified working directory
-	ff = glob.glob(f"{sys.argv[1]}/**")
+	ff = glob.glob(f"{sys.argv[1]}/**",recursive=True)
 	return ff
 
 def addtoxlsx(ff):
