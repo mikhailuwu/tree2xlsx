@@ -17,7 +17,7 @@ Usage: python3 tree2xlsx.py [working directory] [table file]
 Example: python3 tree2xlsx.py '/home' ./files_folders.xlsx
 
 version 1.0
-developed by memeister
+developed by mikhailuwu
 updated 2023-01-21
 ''')
 
